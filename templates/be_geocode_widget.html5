@@ -7,7 +7,7 @@
     	<input type="text" name="<?php echo $this->strName; ?>[lat]" id="ctrl_<?php echo $this->strName; ?>_lat" class="tl_text_2" value="<?php echo $this->lat; ?>" onfocus="Backend.getScrollOffset()"> 
         <input type="text" name="<?php echo $this->strName; ?>[lon]" id="ctrl_<?php echo $this->strName; ?>_lon" class="tl_text_2" value="<?php echo $this->lon; ?>" onfocus="Backend.getScrollOffset()"><br />
     	<input type="text" name="<?php echo $this->strName; ?>[address]" id="ctrl_<?php echo $this->strName; ?>_address" class="tl_text" value="<?php echo $this->address; ?>" onfocus="Backend.getScrollOffset()"> <br />
-        <input type="button" style="width: 157px;" class="tl_text_2" value="Aktuelle Posistion" onclick="return NCGEO.copyCurrentLocationToWidget('<?php echo $this->strName; ?>');" /> 
+        <input type="button" style="width: 157px;" class="tl_text_2" value="Aktuelle Position" onclick="return NCGEO.copyCurrentLocationToWidget('<?php echo $this->strName; ?>');" /> 
         <input type="button" style="width: 157px;" class="tl_text_2" value="Karte öffnen" onclick="return NCGEO.openMapBox('<?php echo $this->strName; ?>');" />
         <?php echo $this->wizard; ?>
 	</div>

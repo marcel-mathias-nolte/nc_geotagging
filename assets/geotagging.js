@@ -72,3 +72,8 @@ var NCGEO = {
 		return false;
 	}
 }
+window.addEvent('domready', function() {
+	$$('.geowidget').each(function(el) {
+		el.getParent().setStyle('height', 'auto');
+	});
+});
