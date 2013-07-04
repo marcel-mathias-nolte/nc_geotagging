@@ -120,9 +120,10 @@ class NcGeoPositionWidget extends \Widget
 	
 	/**
 	 * Generate the widget and return it as string
+	 * @param boolean
 	 * @return string
 	 */
-	public function generateWithError()
+	public function generateWithError($blnSwitchOrder = false)
 	{
 		return $this->generate();
 	}
