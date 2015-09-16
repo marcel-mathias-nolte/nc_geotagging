@@ -7,7 +7,7 @@
  * 
  * @package   NC Geotagging
  * @author    Marcel Mathias Nolte
- * @copyright Marcel Mathias Nolte 2013
+ * @copyright Marcel Mathias Nolte 2015
  * @website   https://www.noltecomputer.com
  * @credits   Helmut Schottmüller <typolight@aurealis.de>
  * @license   <marcel.nolte@noltecomputer.de> wrote this file. As long as you retain this notice you
@@ -26,5 +26,3 @@ $GLOBALS['BE_FFL']['nc_geo_wizard'] = 'NcGeoPositionWidget';
  * Javascript
  */
 $GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/nc_geotagging/assets/geotagging.js';
-
-?>
