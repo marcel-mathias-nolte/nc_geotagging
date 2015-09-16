@@ -40,5 +40,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'be_geocode_widget' => 'system/modules/nc_geotagging/templates',
+	'be_geocode_widget' => 'system/modules/nc_geotagging/templates/backend',
 ));
